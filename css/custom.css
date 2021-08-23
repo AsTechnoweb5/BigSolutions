@@ -1062,3 +1062,42 @@ section.ready__started.project__form .ready__started-box {
           box-shadow: 0 3px 3.2rem rgba(0, 0, 0, 0.08);
 }
 
+/*FAQ section css start here */
+.faqHeader {
+        padding: 2rem;
+    background: #e9e5b7;
+    border-radius: 1rem;
+    font-size: 20px;
+    }
+    .faqtext{
+        padding: 2rem;
+    color: #420106;
+    font-size: 16px;
+    text-align: justify;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+     font-family: 'FontAwesome';
+        content: "\f0a9"; /* "play" icon */
+        float: right;
+        color: #420106;
+        font-size: 30px;
+        line-height: 25px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #a28278;
+    }
+    /*end section of FAQ */

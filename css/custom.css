@@ -46,7 +46,7 @@ banner-bg-1::before{
  
 .banner h2{
     color: #420106;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 1px;
     margin-left: 20px;
@@ -54,7 +54,7 @@ banner-bg-1::before{
 }
 .banner-bg-contact h2{
     color: #fafafa;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 1px;
     margin-left: 20px;
@@ -873,9 +873,7 @@ body > div.menu-box > div > div.row.inner-menu-box > div:nth-child(3) > div > fo
   transition: .3s all;
 }
 
-.main__form .form-group.form-message textarea {
-  padding: 2.5rem;
-}
+
 
 .main__form .form-group.form-message textarea:not(:placeholder-shown) + label {
   top: -8% !important;
@@ -935,11 +933,11 @@ body > div.menu-box > div > div.row.inner-menu-box > div:nth-child(3) > div > fo
 }
 
 .main__form .form-groups.form-check input {
-  position: relative;
+  position: absolute;
 }
 
 .main__form .form-groups.form-check label {
-  font-size: 1.4rem;
+  font-size:15px;
   color: #718399;
 }
 

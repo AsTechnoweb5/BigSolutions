@@ -480,4 +480,9 @@ ul.link li {
     .why_section .detail_box h5{
       text-align: center;
     }
+    .big_contact{
+        width: 100%;
+    margin: 0;
+    padding: 0;
+    }
 }

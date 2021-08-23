@@ -271,6 +271,14 @@ banner-bg-1::before{
           justify-content: space-between;
   margin: 25px 0;
 }
+@media(max-width: 990px){
+  .why_section .row .col-md-6{
+        display: block;
+    }
+    .why_section .detail_box h5{
+      text-align: center;
+    }
+}
 
 .why_section .img_box {
   min-width: 125px;
@@ -628,23 +636,6 @@ body > div.menu-box > div > div.row.inner-menu-box > div:nth-child(3) > div > fo
     color: #420106;
     text-align: center;
     font-weight: bold;
-}
-.another_box i{
-  float: left;
-    padding-right: 10px;
-    font-size: 4rem;
-    color: #420106;
-}
-.another_box i:hover{
-  color: orangered;
-}
-.another_text p{
-  color: #000000;
-    font-size: 17px;
-    line-height: 32px;
-    font-weight: 400;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /*hot topic section card css*/

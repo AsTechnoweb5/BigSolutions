@@ -473,16 +473,4 @@ ul.link li {
 
 
 
-@media(max-width: 990px){
-  .why_section .row .col-md-6{
-        display: block;
-    }
-    .why_section .detail_box h5{
-      text-align: center;
-    }
-    .big_contact{
-        width: 100%;
-    margin: 0;
-    padding: 0;
-    }
-}
+

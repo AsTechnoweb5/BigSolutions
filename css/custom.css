@@ -271,14 +271,6 @@ banner-bg-1::before{
           justify-content: space-between;
   margin: 25px 0;
 }
-@media(max-width: 990px){
-  .why_section .row .col-md-6{
-        display: block;
-    }
-    .why_section .detail_box h5{
-      text-align: center;
-    }
-}
 
 .why_section .img_box {
   min-width: 125px;

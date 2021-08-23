@@ -329,7 +329,11 @@ border: 27.5px solid #470005;
       font-size:16px;
       font-weight: 400;
   }
+body > section > div.menu-box > div > div.row.inner-menu-box > div:nth-child(3) > div > form > div:nth-child(3) > div
+  {
 
+    width: 100%;
+  }
 
 
 

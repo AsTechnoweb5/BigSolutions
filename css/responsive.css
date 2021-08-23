@@ -8,6 +8,7 @@
     .header-search {
         padding: 15px 0px;
     }
+
 }
 
 
@@ -468,4 +469,20 @@ ul.link li {
 .social_icon li { padding-right: 20px; padding-left: 0px;} 
 .subscribe_bt { width: 150px; }
 
+}
+
+
+
+@media(max-width: 990px){
+  .why_section .row .col-md-6{
+        display: block;
+    }
+    .why_section .detail_box h5{
+      text-align: center;
+    }
+    .big_contact{
+        width: 100%;
+    margin: 0;
+    padding: 0;
+    }
 }
